@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "npm test",
-    "prepush": "npm test"
+    "precommit": "node script1.js",
   },
   "author": "",
   "license": "ISC",
