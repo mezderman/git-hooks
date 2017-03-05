@@ -5,4 +5,8 @@ git.short(function (str) {
   console.log('short', str)
   // => aefdd94
 })
-console.log('testing');
+
+git.tag(function (str) {
+  console.log('tag', str)
+  // => 0.1.0
+})
