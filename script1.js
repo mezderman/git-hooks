@@ -1,2 +1,8 @@
 
-console.log('testing')
+var git = require('git-rev')
+
+git.short(function (str) {
+  console.log('short', str)
+  // => aefdd94
+})
+console.log('testing');

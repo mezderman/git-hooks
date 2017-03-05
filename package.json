@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "precommit": "node script1.js",
+    "precommit": "node script1.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^0.13.2"
+    "husky": "^0.13.2",
+    "git-rev": "^0.2.1"
   }
 }
