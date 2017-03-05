@@ -8,5 +8,4 @@ git.short(function (str) {
 
 git.tag(function (str) {
   console.log('tag', str)
-  // => 0.1.0
 })
